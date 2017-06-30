@@ -10,18 +10,18 @@
         http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
-    <bean id="customerService" class="com.tutorial.spring.aop.services.CustomerService">
+    <bean id="customerService" class="com.css.spring.aop.services.CustomerService">
         <property name="name" value="kishore"/>
         <property name="url" value="https://www.linkedin.com/home?trk=nav_responsive_tab_home"/>
     </bean>
 
-    <bean id="customerBeforeAdvice" class="com.tutorial.spring.aop.advice.CustomerBeforeMethodAdvice"/>
+    <bean id="customerBeforeAdvice" class="com.css.spring.aop.advice.CustomerBeforeMethodAdvice"/>
 
-    <bean id="customerAfterReturnAdvice" class="com.tutorial.spring.aop.advice.CustomerAfterMethodAdvice"/>
+    <bean id="customerAfterReturnAdvice" class="com.css.spring.aop.advice.CustomerAfterMethodAdvice"/>
 
-    <bean id="customerThrowExceptionAdvice" class="com.tutorial.spring.aop.advice.CustomerThrowExceptionAdvice"/>
+    <bean id="customerThrowExceptionAdvice" class="com.css.spring.aop.advice.CustomerThrowExceptionAdvice"/>
 
-    <bean id="customerAroundMethodAdvice" class="com.tutorial.spring.aop.advice.CustomerAroundMethodAdvice"/>
+    <bean id="customerAroundMethodAdvice" class="com.css.spring.aop.advice.CustomerAroundMethodAdvice"/>
 
     <bean id="customerServiceProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
         <property name="targetName" value="customerService"/>

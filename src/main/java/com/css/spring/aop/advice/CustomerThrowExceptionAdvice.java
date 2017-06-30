@@ -1,4 +1,4 @@
-package com.tutorial.spring.aop.advice;
+package com.css.spring.aop.advice;
 
 import org.springframework.aop.ThrowsAdvice;
 

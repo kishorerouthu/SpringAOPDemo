@@ -1,4 +1,4 @@
-package com.tutorial.spring.aop.services;
+package com.css.spring.aop.services;
 
 /**
  * Created by kishore on 20/1/17.

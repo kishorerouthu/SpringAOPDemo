@@ -1,4 +1,4 @@
-package com.tutorial.spring.aop.advice;
+package com.css.spring.aop.advice;
 
 import java.lang.reflect.Method;
 
